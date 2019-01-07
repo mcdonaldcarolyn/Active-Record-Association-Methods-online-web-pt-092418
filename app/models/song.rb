@@ -7,6 +7,8 @@ class Song < ActiveRecord::Base
   end
 
   def drake_made_this
-    self.artist.where(:name => "Drake")
+   artist = Artist.new
+   artist.name = "Drake"
+   artist
   end
 end
