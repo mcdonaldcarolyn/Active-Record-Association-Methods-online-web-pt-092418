@@ -1,5 +1,7 @@
 # Active Record Association Methods
 
+
+
 ## Objectives
 
 1. Understand the common methods we have access to from our ActiveRecord associations 
